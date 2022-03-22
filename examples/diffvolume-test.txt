@@ -1,0 +1,47 @@
+Paillier Benchmarks with key size of 128 bits
+1KB float data ciphertext computation
+add encrypted and encrypted: 0.000558 s
+
+100KB float data ciphertext computation
+add encrypted and encrypted: 0.050120 s
+
+1MB float data ciphertext computation
+add encrypted and encrypted: 0.523379 s
+
+Paillier Benchmarks with key size of 256 bits
+1KB float data ciphertext computation
+add encrypted and encrypted: 0.000596 s
+
+100KB float data ciphertext computation
+add encrypted and encrypted: 0.057276 s
+
+1MB float data ciphertext computation
+add encrypted and encrypted: 0.609376 s
+
+Paillier Benchmarks with key size of 512 bits
+1KB float data ciphertext computation
+add encrypted and encrypted: 0.000878 s
+
+100KB float data ciphertext computation
+add encrypted and encrypted: 0.094847 s
+
+1MB float data ciphertext computation
+add encrypted and encrypted: 0.910533 s
+
+Paillier Benchmarks with key size of 1024 bits
+1KB float data ciphertext computation
+add encrypted and encrypted: 0.002073 s
+
+100KB float data ciphertext computation
+add encrypted and encrypted: 0.197865 s
+
+1MB float data ciphertext computation
+add encrypted and encrypted: 1.998825 s
+
+Paillier Benchmarks with key size of 2048 bits
+1KB float data ciphertext computation
+add encrypted and encrypted: 0.005343 s
+
+100KB float data ciphertext computation
+add encrypted and encrypted: 0.580756 s
+

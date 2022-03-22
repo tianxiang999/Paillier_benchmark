@@ -1,0 +1,41 @@
+Paillier Benchmarks with key size of 128 bits
+operation: time in seconds (# operations per second)
+encrypt: 0.000040 s (24765 ops/s)
+decrypt: 0.000008 s (120985 ops/s)
+add unencrypted and encrypted: 0.000015 s (68493 ops/s)
+add encrypted and encrypted: 0.000004 s (252272 ops/s) -> 1MB data(float) cost 0.5s
+add encrypted and 1: 0.000013 s (74550 ops/s)
+multiply encrypted and unencrypted: 0.000016  s (61786 ops/s)
+
+
+Paillier Benchmarks with key size of 256 bits
+operation: time in seconds (# operations per second)
+encrypt: 0.000063 s (15911 ops/s)
+decrypt: 0.000017 s (59400 ops/s)
+add unencrypted and encrypted: 0.000015 s (65000 ops/s)
+add encrypted and encrypted: 0.000005 s (217307 ops/s)
+add encrypted and 1: 0.000014 s (70240 ops/s)
+multiply encrypted and unencrypted: 0.000020  s (49115 ops/s)
+
+
+Paillier Benchmarks with key size of 512 bits
+operation: time in seconds (# operations per second)
+encrypt: 0.000211 s (4743 ops/s)
+decrypt: 0.000060 s (16550 ops/s)
+add unencrypted and encrypted: 0.000016 s (61426 ops/s)
+add encrypted and encrypted: 0.000007 s (148326 ops/s)
+add encrypted and 1: 0.000015 s (66088 ops/s)
+multiply encrypted and unencrypted: 0.000035  s (28721 ops/s)
+
+
+Paillier Benchmarks with key size of 1024 bits
+operation: time in seconds (# operations per second)
+encrypt: 0.001207 s (828 ops/s)
+decrypt: 0.000352 s (2838 ops/s)
+add unencrypted and encrypted: 0.000021 s (48757 ops/s)
+add encrypted and encrypted: 0.000015 s (64849 ops/s) -> 1MB data(float) cost 1.9s
+add encrypted and 1: 0.000019 s (52066 ops/s)
+multiply encrypted and unencrypted: 0.000085  s (11760 ops/s)
+
+
+Paillier Benchmarks with key size of 2048 bits
