@@ -1,0 +1,21 @@
+enclave {
+    from "Sealing/Sealing.edl" import *;
+
+    trusted {
+        /* define ECALLs here. */
+        public int generate_random_number(void);
+
+        public int* mallocer(void);
+
+        public void ecall_hello_from_enclave([out, count=len] float* buf, size_t len);
+
+        public float* enclave_calc_add_1MB([in, count=len] float* buf_1, [in, count=len] float* buf_2, size_t len);
+    };
+
+    untrusted {
+        /* define OCALLs here. */
+        void ocall_print([in, string]const char* str);
+
+        void ocall_copy([in, string]const char* str);
+    };
+};
